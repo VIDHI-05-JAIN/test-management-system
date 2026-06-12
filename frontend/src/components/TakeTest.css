@@ -1,0 +1,48 @@
+.container {
+  width: 90%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.question-block {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.option-label {
+  display: block;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.result-box {
+  text-align: center;
+  background: #e8fbe8;
+  padding: 20px;
+  border: 1px solid #d2f5d2;
+  border-radius: 5px;
+}

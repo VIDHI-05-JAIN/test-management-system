@@ -1,0 +1,78 @@
+.edit-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.edit-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.edit-container input[type="text"],
+.edit-container input[type="number"],
+.edit-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-container .question-block {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.edit-container .question-block input[type="text"] {
+  width: calc(48% - 5px);
+  margin-right: 10px;
+}
+
+.edit-container label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.edit-container .btn-group {
+  margin-top: 10px;
+}
+
+.edit-container .btn {
+  padding: 10px 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-container .btn:hover {
+  background-color: #0056b3;
+}
+
+.edit-container .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.edit-container .delete-btn:hover {
+  background-color: #a60d1a;
+}
+
+.edit-container .success-message {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+.result-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #f4f4f4;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.result-container h2 {
+  margin-bottom: 20px;
+}
+
+.result-container p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.result-container .btn {
+  margin-top: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

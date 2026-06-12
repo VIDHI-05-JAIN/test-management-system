@@ -1,0 +1,107 @@
+/* General layout (reuse from admin) */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+
+/* Table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #007bff;
+  color: #fff;
+}
+
+td {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #ccc;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.logout-btn {
+  float: right;
+  padding: 8px 12px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.logout-btn:hover {
+  background-color: darkred;
+}
+
+.attempted-summary {
+  color: green;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.view-result-btn {
+  margin-top: 5px;
+  padding: 4px 10px;
+  font-size: 13px;
+  background-color: #4287f5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-result-btn:hover {
+  background-color: #306edb;
+}

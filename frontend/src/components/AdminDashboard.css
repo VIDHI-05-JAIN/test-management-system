@@ -1,0 +1,138 @@
+/* General layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Header */
+.title {
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Create Button */
+.create-btn {
+  float: right;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.create-btn:hover {
+  text-decoration: underline;
+}
+
+.attempted-badge {
+  margin-left: 8px;
+  padding: 2px 6px;
+  background-color: crimson;
+  color: white;
+  font-size: 0.75rem;
+  border-radius: 4px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #007bff;
+  color: #fff;
+}
+
+td {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Action Buttons */
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #ccc;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-btn {
+  white-space: nowrap;  /* Prevents wrapping */
+  min-width: 70px;
+}
+
+
+/* Pagination Controls */
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.page-btn:hover {
+  background: #0056b3;
+}
+
+.logout-btn {
+  float: right;
+  padding: 8px 12px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.logout-btn:hover {
+  background-color: darkred;
+}
